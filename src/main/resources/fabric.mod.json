@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "avalonmc",
+  "version": "${version}",
+
+  "name": "AvalonMC Mod",
+  "description": "",
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.avalonmc.mcmod.AvalonMod"
+    ]
+  },
+  "mixins": [
+    "avalonmc.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19.2",
+    "java": ">=17"
+  }
+}
